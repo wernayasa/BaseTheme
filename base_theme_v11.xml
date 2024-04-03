@@ -87,8 +87,8 @@
 */
 /*!************************************************
 * Name		: Tema Dasar
-* Version	: 11
-* Build		: 29/03/2024
+* Version	: 11.1
+* Build		: 4/04/2024
 * Website	: emissionhex.blogspot.com
 **************************************************/
 svg {width: 22px;height:22px}
@@ -900,26 +900,6 @@ urlactivepage=location.href,home_page="/";function looppagecurrentg(e){var a="";
      <b:includable id='post' var='post'> 
       <main class='content post'>
 	<article expr:class='&quot;post-&quot; + data:post.id + &quot; blog&quot;'>
-<div class='countapi'>
-<span data-after='Liked' data-klik='0' data-teks='Like' id='liked' onclick='clicked()'/>
-<span data-after='Dislike' data-klik='0' data-teks='Dislike' id='dislike' onclick='clicked()'/>
-<span data-after='View' data-klik='0' data-teks='View' id='view' onclick='clicked()'/>
-</div>
-<script>
-const like = document.querySelector(&quot;#liked&quot;);
-const key = <data:post.id/>
-article.dataset.like; // &quot;3&quot;
-
-function clicked() {
-    var xhr = new XMLHttpRequest();
-    xhr.open(&quot;GET&quot;, &quot;https://api.countapi.xyz/hit/www.wendycode.com/awesomeclick&quot;);
-    xhr.responseType = &quot;json&quot;;
-    xhr.onload = function() {
-        like.setAttribute(&quot;data-klik&quot;, &#39;${this.response.value}&#39;);
-    }
-    xhr.send();
-}
-</script>
       <b:include name='postPagination'/>
     <b:include data='post' name='postMeta'/>
     <b:include data='post' name='postTitle'/>
@@ -928,7 +908,6 @@ function clicked() {
     <b:include data='post' name='postFooter'/>
 
       </article>
-        <style>#FeaturedPost1 {display: none;}</style>
       </main>
 </b:includable>
      <b:includable id='postAuthor'>
