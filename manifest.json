@@ -1,7 +1,7 @@
 {
     "name": "Base Template",
     "short_name": "Base",
-    "scope": "base-theme.blogspot.com",
+    "scope": "https://base-theme.blogspot.com/",
     "start_url": "https://base-theme.blogspot.com/",
     "display": "standalone",
     "background_color": "#fff",
@@ -35,5 +35,24 @@
       "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Pqt8WebK15mGEXM5hBtfm89XhPZ-HPxzxrTVp0BIcvxo4DH0QHAmBR_qaW953BYL0tQPIA2gZQZjSD42Tt_hxNrV37u3elIuHfV_yuT5p1n14NMsl1A5Ffr73uOKMYeodEMWJcuOwY9nk1ofYr1IibJE2FDVcyNwbcH17l7qVqvqCjqzzCCMlXo9mYA/s512/blogger_512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }]
+    }],
+    "screenshots": [
+    {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihqiiWdUdXVlPc6ZvKlMghA_Tf2D04YJevHOYsTo248pqi7gLxbM_AW1vVACNpx4nsVcXG1jYvY2fc8hpIGsdFZMFnTGUaxfcgZ-zpW8-Kuo5acyzOytkxP0XVBG0yeSBvofcHyDVdNEOh_A2LN3nfTDJGeVtvxtQ-OuTvgD9kZ0Hg4yJ3FXQDvKkjxNE/w412-h915-p-k-no-nu/HexaNime_v3.jpg",
+        "type": "image/jpg",
+        "sizes": "412x915",
+        "form_factor": "narrow"
+        },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihqiiWdUdXVlPc6ZvKlMghA_Tf2D04YJevHOYsTo248pqi7gLxbM_AW1vVACNpx4nsVcXG1jYvY2fc8hpIGsdFZMFnTGUaxfcgZ-zpW8-Kuo5acyzOytkxP0XVBG0yeSBvofcHyDVdNEOh_A2LN3nfTDJGeVtvxtQ-OuTvgD9kZ0Hg4yJ3FXQDvKkjxNE/w1280-h720-p-k-no-nu/HexaNime_v3.jpg",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihqiiWdUdXVlPc6ZvKlMghA_Tf2D04YJevHOYsTo248pqi7gLxbM_AW1vVACNpx4nsVcXG1jYvY2fc8hpIGsdFZMFnTGUaxfcgZ-zpW8-Kuo5acyzOytkxP0XVBG0yeSBvofcHyDVdNEOh_A2LN3nfTDJGeVtvxtQ-OuTvgD9kZ0Hg4yJ3FXQDvKkjxNE/w640-h360-p-k-no-nu/HexaNime_v3.jpg",
+      "sizes": "640x360",
+      "type": "image/png"
+    }
+  ]
   }
